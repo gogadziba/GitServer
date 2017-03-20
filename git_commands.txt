@@ -1,0 +1,18 @@
+git init --bare
+
+git config --global user.name "gogadziba"
+
+git config --global user.email gogadziba@gmail.com
+
+git clone https://github.com/gogadziba/GitServer.git
+
+add my_first.txt
+
+git status
+
+git commit -m my_first.txt
+
+git commit -m "first commit" my_first.txt
+
+git push -u origin master
+  
